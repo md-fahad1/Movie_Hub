@@ -29,7 +29,7 @@ export default function Index() {
       >
         <Image
           source={images.pathan}
-          className="w-12 h-12 mt-24 mb-5 mx-auto z-1"
+          className="w-48  h-16  mt-24 mb-5 mx-auto z-1"
         />
         {moviesLoading ? (
           <ActivityIndicator
@@ -42,7 +42,7 @@ export default function Index() {
         ) : (
           <View className="flex-1 mt-5">
             <Searchbar
-              onPress={() => router.push("/search")}
+              // onPress={() => router.push("/search")}
               placeholder="Search for movies, TV shows..."
             />
             <>

@@ -14,7 +14,7 @@ const Layout = () => {
           borderRadius: 50,
           marginHorizontal: 20,
           marginBottom: 30,
-          height: 53,
+          height: 56,
           position: "absolute",
           overflow: "hidden",
           borderWidth: 1,
